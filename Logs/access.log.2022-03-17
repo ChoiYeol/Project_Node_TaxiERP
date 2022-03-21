@@ -1,0 +1,29 @@
+2022-03-17 20:47:45 [INFO] - connected ! connection id: 27 -----
+2022-03-17 20:47:45 [INFO] - exe Disconnected ! connection id: 27 !!!!!!
+2022-03-17 20:47:45 [INFO] - results: [{"OFFICE_ID":"3140828408","OFFICE_NAME":"대전테스트","CEO_NAME":"대전","CEO_TEL":"123-123","FAX":"","ADDRESS":"","SET_TIME":"00","REG_DTTI":"2022-01-12T08:15:10.000Z","OFFICE_TYPE":"법인"},{"OFFICE_ID":"3128103758","OFFICE_NAME":"신진택시","CEO_NAME":"","CEO_TEL":"041-562-8866","FAX":"","ADDRESS":"천안시 동남구 구성동 219-33","SET_TIME":"04","REG_DTTI":"2022-03-08T09:21:45.000Z","OFFICE_TYPE":"법인"},{"OFFICE_ID":"3128100353","OFFICE_NAME":"상호운수","CEO_NAME":"","CEO_TEL":"041-574-4507","FAX":"","ADDRESS":"천안시 동남구 풍세로 740","SET_TIME":"04","REG_DTTI":"2022-03-02T06:28:26.000Z","OFFICE_TYPE":"법인"},{"OFFICE_ID":"3051048835","OFFICE_NAME":"대전테스트2","CEO_NAME":"대전테스트","CEO_TEL":"","FAX":"","ADDRESS":"","SET_TIME":"00","REG_DTTI":"2022-01-20T06:34:29.000Z","OFFICE_TYPE":"개인"},{"OFFICE_ID":"3050687369","OFFICE_NAME":"대전테스트3","CEO_NAME":"","CEO_TEL":"","FAX":"","ADDRESS":"","SET_TIME":"03","REG_DTTI":"2022-01-26T02:09:44.000Z","OFFICE_TYPE":"개인"},{"OFFICE_ID":"0000000000","OFFICE_NAME":"테스트333","CEO_NAME":"테스트33","CEO_TEL":"","FAX":"","ADDRESS":"","SET_TIME":"00","REG_DTTI":"2022-01-05T08:16:17.000Z","OFFICE_TYPE":"법인"}]
+2022-03-17 20:48:18 [INFO] - login start
+2022-03-17 20:48:18 [INFO] - connected ! connection id: 27 -----
+2022-03-17 20:48:18 [INFO] - exeTransaction->queryStatement: select * from USER_INFO where ID = 'sangho123'
+2022-03-17 20:48:18 [INFO] - user in login : {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJzYW5naG8xMjMiLCJpYXQiOjE2NDc1MTc2OTgsImV4cCI6MTY3OTA1MzY5OH0.bCQFXEiyGEbu12H2Ae36fH_AkPoA7KHbknZOD5qp7K4","user":{"NO":114,"OFFICE_ID":"3128100353","ROLES":"admin","ID":"sangho123","PW":"UlmoM4HidXhLoadmJSsJ/BtVgv55ioNTxRGB2bnOei0OwFrsHLpb+Cbine6MhNPBhQPsdWeZ8Z3xIJpQkc4Zvw==","ETC":"","DRIVER_ID":null,"JOB_TYPE":null,"JOB_POSITION":null,"NAME":null,"SSN":null,"TEL":null,"JOB_STATUS":null,"CAR_NUM":null,"JOIN_DTTI":null,"LEAVE_DTTI":null,"ADDRESS":null,"DRIVER_LICENSE_NUM":null,"DRIVER_LICENSE_CREATE":null,"LICENSE_NUM":null,"LICENSE_CREATE":null,"LOGIN_ERR_CNT":0,"REG_DTTI":"2022-03-02T06:28:57.000Z"}}
+2022-03-17 20:48:18 [INFO] - exe Disconnected ! connection id: 27 !!!!!!
+2022-03-17 20:48:18 [INFO] - decoded in getAuth :{"userId":"sangho123","iat":1647517698,"exp":1679053698}
+2022-03-17 20:48:18 [INFO] - getOfficeInfoPaging inputKey:{"Table":"OFFICE_INFO","Search":{"OFFICE_ID":"3128100353"}}
+2022-03-17 20:48:18 [INFO] - connected ! connection id: 28 -----
+2022-03-17 20:48:18 [INFO] - exe Disconnected ! connection id: 28 !!!!!!
+2022-03-17 20:48:18 [INFO] - results: [{"OFFICE_ID":"3128100353","OFFICE_NAME":"상호운수","CEO_NAME":"","CEO_TEL":"041-574-4507","FAX":"","ADDRESS":"천안시 동남구 풍세로 740","SET_TIME":"04","REG_DTTI":"2022-03-02T06:28:26.000Z","OFFICE_TYPE":"법인"}]
+2022-03-17 20:48:18 [INFO] - getOfficeInfoPaging results:[{"OFFICE_ID":"3128100353","OFFICE_NAME":"상호운수","CEO_NAME":"","CEO_TEL":"041-574-4507","FAX":"","ADDRESS":"천안시 동남구 풍세로 740","SET_TIME":"04","REG_DTTI":"2022-03-02T06:28:26.000Z","OFFICE_TYPE":"법인"}]
+2022-03-17 20:48:18 [INFO] - decoded in getAuth :{"userId":"sangho123","iat":1647517698,"exp":1679053698}
+2022-03-17 20:48:18 [INFO] - getDriveOneMinInfoByMax start 
+2022-03-17 20:48:18 [INFO] - connected ! connection id: 29 -----
+2022-03-17 20:48:18 [INFO] - decoded in getAuth :{"userId":"sangho123","iat":1647517698,"exp":1679053698}
+2022-03-17 20:48:18 [INFO] - getOfficeInfoPaging inputKey:{"Table":"OFFICE_INFO","Search":{"OFFICE_ID":"3128100353"}}
+2022-03-17 20:48:18 [INFO] - connected ! connection id: 30 -----
+2022-03-17 20:48:18 [INFO] - exe Disconnected ! connection id: 30 !!!!!!
+2022-03-17 20:48:18 [INFO] - results: [{"OFFICE_ID":"3128100353","OFFICE_NAME":"상호운수","CEO_NAME":"","CEO_TEL":"041-574-4507","FAX":"","ADDRESS":"천안시 동남구 풍세로 740","SET_TIME":"04","REG_DTTI":"2022-03-02T06:28:26.000Z","OFFICE_TYPE":"법인"}]
+2022-03-17 20:48:18 [INFO] - getOfficeInfoPaging results:[{"OFFICE_ID":"3128100353","OFFICE_NAME":"상호운수","CEO_NAME":"","CEO_TEL":"041-574-4507","FAX":"","ADDRESS":"천안시 동남구 풍세로 740","SET_TIME":"04","REG_DTTI":"2022-03-02T06:28:26.000Z","OFFICE_TYPE":"법인"}]
+2022-03-17 20:48:19 [INFO] - exeTransaction->queryStatement: SELECT * FROM DRIVE_1MIN_INFO WHERE OFFICE_ID = '3128100353' 
+2022-03-17 20:48:19 [INFO] - exeTransaction->queryStatement: SELECT a.* FROM DRIVE_1MIN_INFO a,  (select  MAX(INFO_DTTI) as MAX_INFO, CAR_NUM from DRIVE_1MIN_INFO where INFO_DTTI like '220317%'  and OFFICE_ID = '3128100353'  GROUP BY CAR_NUM) b WHERE  a.INFO_DTTI = b.MAX_INFO and a.CAR_NUM = b.CAR_NUM ;
+2022-03-17 20:48:19 [INFO] - getDriveOneMinInfoByMax : [{"INFO_DTTI":"220317014355","CAR_NUM":"충남31바1272","DRIVER_ID":"000031021168","SPEED":4,"DIST":0,"CAR_X":36.7867777,"CAR_Y":127.1277202,"STATE":"1","OFFICE_ID":"3128100353"}]
+2022-03-17 20:48:19 [INFO] - exe Disconnected ! connection id: 29 !!!!!!
+2022-03-17 20:48:19 [INFO] - connected ! connection id: 31 -----
+2022-03-17 20:48:19 [INFO] - exe Disconnected ! connection id: 31 !!!!!!
